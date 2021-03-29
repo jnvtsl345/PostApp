@@ -1,0 +1,36 @@
+/* Styles for our main form */
+.loginForm{
+    float:right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+/* Styles for our form inputs */
+.loginForm input[type=text],input[type=password]{
+    margin-right: 5px;
+    font-size: 17px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+/* Styles for our form submit button */
+.loginForm input[type=submit]{
+    background-color: #4CAF50;
+    color: white;
+    font-size: 15px;
+    padding: 3px 20px;
+    width:100px;
+    border-color: transparent;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.loginForm input[type=submit]:hover{
+    opacity: 0.8;
+}
+
+/* Styles for our form labels */
+.loginForm label{
+    padding-right:7px;
+    color: white;
+}
+  

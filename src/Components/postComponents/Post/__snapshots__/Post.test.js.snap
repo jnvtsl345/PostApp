@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="post"
+>
+  <h3
+    data-testid="post-title"
+  >
+    Football
+  </h3>
+  <p
+    data-testid="post-content"
+  >
+    Best game ever!!
+  </p>
+  <label
+    data-testid="post-author"
+  >
+    Created By:
+    <strong>
+       
+      Vatsal
+    </strong>
+  </label>
+</div>
+`;

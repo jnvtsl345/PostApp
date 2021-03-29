@@ -1,0 +1,7 @@
+/* Our user bar has app name, this properties are applied to that name */
+.appName{
+    color: white;
+    font-size: 25px;
+    float: left;
+    padding: 30px;   
+}

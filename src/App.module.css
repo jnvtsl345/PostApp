@@ -1,0 +1,43 @@
+/* App container is our whole application*/
+.appContainer{
+    background-color: white;
+    height: 100vh;
+    width:100vw;
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    
+}
+
+/* Defining our user bar and put it in grid row 1 */
+.appUserBar{
+    background-color: black;
+    grid-row: 1;
+}
+
+/* Defining our Post section in grid row 2. It further splits into two columns 'createPost' & 'postList' */
+.post{
+    grid-row: 2;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+
+/* This section contains our create post form */
+.createPost{
+    background-color:lightblue;
+    grid-column: 1;
+}
+
+/* We will render our post's in this section */
+.postList{
+    background-color: white;
+    grid-column: 2;
+}
+
+/* Our initial render when user is not logged in */
+.initialPage{
+    font-size: 50px;
+    opacity: 0.1;
+    margin-left: 40%;
+}

@@ -1,0 +1,25 @@
+.logoutForm{
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 7px;
+}
+.logoutForm label{
+    padding-right: 10px;
+    color: white;
+    font-size: 17px;
+}
+.logoutForm button{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    padding: 3px 20px;
+    width:100px;
+    border-color: transparent;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.logoutForm button:hover{
+    opacity: 0.8;
+}
